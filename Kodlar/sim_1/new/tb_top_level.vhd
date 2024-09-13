@@ -118,14 +118,14 @@ begin
          
         WR_EN <= '0'; wait for 50 ns; -- Stop writing
 
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 0st data     
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 1st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 2st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 3st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 4st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 5st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 6st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 7st data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 0 data     
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 1 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 2 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 3 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 4 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 5 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 6 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 7 data
       
        
         RD_EN <= '0'; wait for 10 ns;  -- Stop reading
@@ -142,14 +142,14 @@ begin
                      
         WR_EN <= '0'; wait for 50 ns;-- Stop writing
 
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 0st data     
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 1st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 2st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 3st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 4st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 5st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 6st data
-        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 7st data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 0 data     
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 1 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 2 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 3 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 4 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 5 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 6 data
+        RD_EN <= '1'; wait for RD_CLK_PERIOD; --Read 7 data
       
         
         RD_EN <= '0'; wait for 100 ns;  -- Stop reading      
